@@ -1,0 +1,36 @@
+.loginContainer {
+    display: flex;
+    width: 100%;
+}
+
+.loginPageContainerWithImage{
+    display: flex;
+}
+.loginImageSide{
+    height: 100vh;
+    overflow: hidden;
+}
+.loginImageSide img{
+    height: inherit;
+}
+
+.loginFormContainer {
+    width: 80%;
+    align-self: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginFormModified div{
+    width: 100%;
+}
+.loginFormModified button{
+    width: 100%;
+    margin-top: 1em;
+}
+
+.loginForm{
+    width: 50%;
+    align-self: center;
+}
